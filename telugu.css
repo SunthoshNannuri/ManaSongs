@@ -1,0 +1,198 @@
+body
+{
+    background-color:rgb(122, 171, 193);
+    filter: blur();
+}
+.logosize
+{
+width: 70px;
+height: 70px;
+}
+#logo
+{
+    margin-top:0;
+    
+}
+*
+{
+    margin: 0%;
+    padding: 0%;
+}
+#menu
+{
+    width: 100%;
+    height: 15vh;
+    display: flex;
+    justify-content: space-around;
+    color: white;
+    position: sticky;
+    position: -webkit-sticky;
+    top:0;
+    background-color: black;
+}
+#home
+{
+    margin-left: 20%;
+}
+.homebtn
+{
+    margin-top: 50px;
+}
+#search
+{
+    margin-top: 23px;
+}
+#login
+{
+    margin-top:15px;
+}
+.text
+{
+    border-radius: 10px;
+    border: white solid;
+    background-color: black;
+    height:25px;
+    width: 180px;
+    color: white;
+}
+.fa-search
+{
+position: relative;
+right: 180px;
+}
+#signup,#signin
+{
+width: 100px;
+height: 40px;
+border-radius: 30px;
+font-size: 15px;
+font-weight:bold;
+color: white;
+background-color: black;
+border:white solid;
+}
+#signup:hover
+{
+    background-color: white;
+    color: black;
+}
+#signin:hover
+{
+    background-color: white;
+    color: black;
+}
+#directorbox
+{
+    width: 400px;
+    height:467px;
+    background-color:rgb(41, 40, 40);
+    display: grid;
+    grid-template-columns:100px 1fr;
+    gap: 6rem;
+    overflow-y: auto;
+}
+#dirsize
+{
+    border-radius: 50%;
+    margin: 10px;
+}
+#division
+{
+    display: flex;
+}
+#play
+{
+    position: relative;
+    left: 0px;
+    width:900px;
+    
+}
+#zone
+{
+    display: grid;
+    grid-template-columns:400px 1fr;
+    gap: 1rem;
+    margin: 15px;
+    margin-left: 45px;
+    margin-top: 120px;
+}
+#zoner
+{
+    width: 400px;
+    height: 60px;
+    border-radius:20px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 20px;
+    cursor: pointer;
+    color:white;
+    font-weight: 300;
+}
+.relatepic
+{
+    width: 90px;
+    height: 60px;
+    border-radius: 20px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+}
+
+#r1
+{
+    position: absolute;
+    left: 45px;  
+    top:120px;
+    transition: .6s ease;
+}
+#r2
+{
+    position: absolute;
+    left:460px;  
+    top:120px;
+}
+#r3
+{
+    position: absolute;
+    left:45px;  
+    top:195px;
+}
+#r4
+{
+    position: absolute;
+    left:460px;  
+    top:195px;
+}
+#r5
+{
+    position: absolute;
+    left:45px;  
+    top:272px;
+}
+#r6
+{
+    position: absolute;
+    left:460px;  
+    top:272px;
+}
+#r7
+{
+    position: absolute;
+    left:460px;  
+    top:159px;
+}
+#playing
+{
+    height: 430px;
+    width: 400px;
+    position: absolute;
+   left: 33%;
+   top: 12%;
+    border-radius: 20px; 
+    background-color:black;
+}
+video
+{
+    width: 400px;
+    border-radius: 20px;
+    border-bottom-left-radius: 0%;
+    border-bottom-right-radius: 0%;
+}

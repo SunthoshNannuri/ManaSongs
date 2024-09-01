@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="IE-edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="love.css">
+    <script src="hip.js"></script>
+</head>
+<body id="blur">
+    <div id="menu">
+        <button id="back" onclick="location.href='telugu.html'"><</button>
+        <div id="logo">
+         <img class="logosize" src="musiclogo.jpeg" alt="">
+        </div>
+        <div id="musictext" style="margin-left: 0%; position: absolute; left: 10%;">
+        <h4 style="margin-top:25px;">ManaMusic</h4>
+        </div>
+    <div id="home" onclick="location.href='music.html'">
+        <button id="signup" style="margin-top: 15px;">Home</button>
+    </div>
+    <div id="search">
+        <input class="text" type="text">
+        <i class="fa fa-search"></i>
+    </div>
+    <div id="login">
+        <button id="signup">SignUp</button>
+        <button id="signin">Login</button>
+    </div>
+</div>
+<div class="division">
+    <div id="list">
+     <button id="test1" value="song1" onclick="play1()">OMG Daddy<br><small>Song.Roll Raida</small></button>
+     <button id="test2" value="song4" onclick="play2()">Psycho<br><small>Song.Anirudh Ramchander</small></button>
+     <button id="test3" value="song3" onclick="play3()">vikram<br><small>Song.Sid Sriram </small></button>
+     <button id="test4" value="song5" onclick="play4()">Neethoney Dance<br><small>Song.Yuvan Shankar Raja,Anurag Kulkarni</small></button>
+     <button id="test5" value="song2" onclick="play5()">Mr.Perfect<br><small>Song.Aunp Rubens,Sid Sriram</small></button>
+     <button id="test6" value="song6" onclick="play6()">Lover Also Fighter Also<br><small>Song.Shilpa Rao,Anirudh Ravichander</small></button>
+     
+    </div>
+    <div id="poster">
+        <video autoplay loop muted width="400px" height="350px" id="glimps" src="temp2.mp4" type="video/mp4">
+        </video>
+    <div id="audio">
+        <audio controls id="song1">
+            <source src="omg.mp3"  type="audio/ogg">
+        </audio>
+    </div>
+    <div class="nextbutton">
+
+    <button id="previous" onclick="changeback()">previous</button>
+    <button id="next" onclick="changesong()">Next</button>
+    </div>
+    </div>
+</div>
+<i class="fa fa-heart" id="l1" style="font-size:24px" onclick="like11()"></i>
+<i class="fa fa-heart" id="li1" style="font-size:24px" onclick="like12()"></i>
+
+<i class="fa fa-heart" id="l2" style="font-size:24px" onclick="like21()"></i>
+<i class="fa fa-heart" id="li2" style="font-size:24px" onclick="like22()"></i>
+
+<i class="fa fa-heart" id="l3" style="font-size:24px" onclick="like31()"></i>
+<i class="fa fa-heart" id="li3" style="font-size:24px" onclick="like32()"></i>
+
+
+<i class="fa fa-heart" id="l4" style="font-size:24px" onclick="like41()"></i>
+<i class="fa fa-heart" id="li4" style="font-size:24px" onclick="like42()"></i>
+
+<i class="fa fa-heart" id="l5" style="font-size:24px" onclick="like51()"></i>
+<i class="fa fa-heart" id="li5" style="font-size:24px" onclick="like52()"></i>
+
+<i class="fa fa-heart" id="l6" style="font-size:24px" onclick="like61()"></i>
+<i class="fa fa-heart" id="li6" style="font-size:24px" onclick="like62()"></i>
+
+<div id="likedsongs">
+    <p id="head">Play Your Liked Songs</p>
+    <p id="back2" onclick="document.getElementById('likedsongs').style.display='none' ">x</p>
+    </div>
+
+    <div id="likeicon">
+        <img src="likesongsicon.png" width="40px" height="40px" alt="" onclick="document.getElementById('likedsongs').style.display='block'" id="iconpos">
+    </div>
+<div id="text">
+    <p style="font-weight:bold; font-family:'Times New Roman', Times, serif;">Liked Songs List</p>
+</div>
+<button id="autoon" onclick="autoplayon()">Autoplay On</button>
+<button id="autooff" onclick="autoplayoff()">Autoplay Off</button>
+
+</body>
+</html>
