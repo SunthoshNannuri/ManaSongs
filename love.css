@@ -375,6 +375,7 @@ p
     text-align: center;
     margin-top: 20px;
     font-family:'Times New Roman', Times, serif;
+    text-decoration: underline;
 }
 
 #likedsong1,#likedsong2,#likedsong3,#likedsong4,#likedsong5,#likedsong6
@@ -485,6 +486,7 @@ p
     background-color: black;
     border-top-right-radius: 20px;
     color: white;
+    text-decoration: none;
 }
 #back2:hover
 {
