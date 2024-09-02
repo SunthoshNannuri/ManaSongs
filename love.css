@@ -376,6 +376,7 @@ p
     margin-top: 20px;
     font-family:'Times New Roman', Times, serif;
     text-decoration: underline;
+    cursor: pointer;
 }
 
 #likedsong1,#likedsong2,#likedsong3,#likedsong4,#likedsong5,#likedsong6
