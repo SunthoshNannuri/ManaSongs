@@ -477,4 +477,43 @@ function autoplayon()
 document.getElementById('autooff').style.display='block'
 document.getElementById('autoon').style.display='none'
 }
-
+function search()
+{
+var search=document.getElementById('getsearch').value
+var searchsong=search.toLowerCase();
+console.log(searchsong)
+if(searchsong=='kalavathi')
+{
+    var change=play1()
+    return change
+}
+else if(searchsong=='madam sir madam anthe')
+    {
+        var change=play2()
+        return change
+    }
+    else if(searchsong=='matevinadhuga')
+        {
+            var change=play3()
+            return change
+        }
+        else if(searchsong=='suttamla soosi')
+            {
+                var change=play4()
+                return change
+            }
+            else if(searchsong=='so so')
+                {
+                    var change=play5()
+                    return change
+                }
+                else if(searchsong=='chuttamalle')
+                    {
+                        var change=play6()
+                        return change
+                    }
+                    else
+                    {
+                        alert("sorry we don't have that song");
+                    }
+}
